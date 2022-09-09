@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var nome = window.prompt('Ola vamos avaliar suas NOTAS e ver como foi seu desempenho! Para começarmos digite seu NOME:')
+        window.confirm('Lembre-se de colocar apenas números de 0 a 10')
+        var matematica = Number(window.prompt('Vamos começar com a matéria de Matemática, qual foi sua nota?'))
+        var portugues = Number( window.prompt('E em Português qual foi sua nota?'))
+        var geografia = Number(window.prompt(`Geografia como você se saiu em ${nome} ? `))
+        var ingles = Number(window.prompt('Para finalizar, qual foi sua nota na matéria de Inglês'))
+        document.write(`Ola, ${nome} estamos processando suas notas... <br><br> Matematica: ${matematica} <br><br> Portugues: ${portugues} <br><br> Geografia: ${geografia} <br><br> Ingles: ${ingles} `)
+        var media = (matematica + portugues + geografia + ingles)/4
+        document.write(`<br> <br> A médias das suas notas foram de:  ${media}`)
+        
+
+       
+
+
+    </script>
+
+
+
+
+</body>
+</html>
